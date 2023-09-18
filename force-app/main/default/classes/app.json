@@ -1,0 +1,7 @@
+{
+    "name": "Legarant Heroku App",
+    "description": "A mobile application using Heroku and Salesforce",
+    "repository": "https://github.com/Magda-dev/Legarant_P12",
+    "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
+    "keywords": ["node", "express", "static"]
+  }

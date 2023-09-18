@@ -3,7 +3,7 @@ Go to Salesforce and create you own regular org or sandbox. This is a connected 
 
 ## How to Deploy This app on your org ?
 To deploy this app on your org you can use this tool that will deploy directly from Github into a Salesforce org. Just click the Saleforce Heroku deploy button here and fill the blank field :
-<a href="https://githubsfdeploy.herokuapp.com/?owner=Magda-dev;repo=P12_Legarant">
+<a href="https://githubsfdeploy.herokuapp.com/?owner=Magda-dev;repo=Legarant_P12">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
@@ -53,7 +53,7 @@ Only Heroku Postgre and Heroku Connect add-ons are needed (Free version).
 
 For simple deployment on Heroku platform use this handy Heroku-button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/P12_Legarant)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
 
 # Step 4 Install PGAdmin to test the App and send requests
 <a href="https://www.pgadmin.org/docs/pgadmin4/development/connect_to_server.html">First step with PgAdmin </a></br>
