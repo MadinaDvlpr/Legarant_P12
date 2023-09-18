@@ -52,7 +52,9 @@ Only Heroku Postgre and Heroku Connect add-ons are needed (Free version).
 ## Deploy to Heroku
 
 For simple deployment on Heroku platform use this handy Heroku-button 
-
+<a href="https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
 
 # Step 4 Install PGAdmin to test the App and send requests
