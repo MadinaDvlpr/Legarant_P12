@@ -8,6 +8,8 @@ To deploy this app on your org you can use this tool that will deploy directly f
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
+
 ## Salesforce DX Project: Next Steps
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
@@ -55,7 +57,8 @@ For simple deployment on Heroku platform use this handy Heroku-button
 <a href="https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
+
+
 
 # Step 4 Install PGAdmin to test the App and send requests
 <a href="https://www.pgadmin.org/docs/pgadmin4/development/connect_to_server.html">First step with PgAdmin </a></br>

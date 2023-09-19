@@ -24,9 +24,6 @@ global with sharing class ContractService {
         RestRequest request = RestContext.request;
         Map<String, Object> requestResult = (Map<String, Object>) JSON.deserializeUntyped(request.requestBody.toString());
         List<Object> contracts = (List<Object>) requestResult.get('records');
-        
-        System.debug('inside createnew ' + contracts);
-        
         List<Contract> contractsToInsert = new List<Contract>();
         
         for (Object contractObject : contracts) {
@@ -35,21 +32,17 @@ global with sharing class ContractService {
                    Name = (String) parsedContract.get('Name'),
                     Status =  (String) parsedContract.get('Status'),
                     AccountId =  (String) parsedContract.get('AccountId'),
-                    StartDate = (Date) parsedContract.get('StartDate'),
-                    ContractTerm = (Integer) parsedContract.get('ContractTerm')
+                    StartDate = Date.valueOf((String) parsedContract.get('StartDate')),
+                    ContractTerm = Integer.valueOf((String) parsedContract.get('ContractTerm'))
             );
             contractsToInsert.add(thisContract);
-            
-            System.debug(' contact from Inside Method ' + thisContract);
         }
-
         Database.upsert(contractsToInsert, Contract.Id, true);
 		
         Map<String, String> stringMap = new Map<String, String>();
         for (Contract contract : contractsToInsert) {
             if (contract.Id != null) {
-                stringMap.put(contract.Id, contract.Name);
-                System.debug('Inside stringMap from contract service ==> createnewcontract : ' + contract.Name);
+                stringMap.put(contract.Name, contract.Status);
             }
         }
         return JSON.serializePretty(stringMap);

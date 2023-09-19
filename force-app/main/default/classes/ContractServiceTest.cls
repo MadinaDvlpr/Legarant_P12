@@ -12,7 +12,7 @@ public class ContractServiceTest {
          Test.startTest();
         // Set up a test request
         RestRequest request = new RestRequest();
-        request.requestUri ='https://legarant4-dev-ed.develop.lightning.force.com/services/apexrest/MagdaDev/Contact/'+ recordId;
+        request.requestUri ='https://legarant-b-dev-ed.develop.lightning.force.com/services/apexrest/Contact/'+ recordId;
         request.httpMethod = 'GET';
         RestContext.request = request;
         
@@ -28,18 +28,16 @@ public class ContractServiceTest {
     static void testCreateContract() {
      
         RestRequest request = new RestRequest();
-        request.requestUri ='https://legarant4-dev-ed.develop.lightning.force.com/services/apexrest/MagdaDev/Contact/';
+        request.requestUri ='https://legarant-b-dev-ed.develop.lightning.force.com//services/apexrest/Contact/';
         request.httpMethod = 'POST';
         RestContext.request = request;        
-        request.requestBody = Blob.valueOf('{"records" : [{"attributes" : {"type" : "Contract"},"Name": "ContractName-1","AccountId": "0017R00002ywRLdQAM","Status": "Draft","StartDate": "01-01-2024","ContractTerm": "6"}]}');
+        request.requestBody = Blob.valueOf('{"records" : [{"attributes" : {"type" : "Contract"},"Name": "ContractName-1","AccountId": "0010600002Cw3Z3AAJ","Status": "Draft","StartDate": "2024-02-01","ContractTerm": "6"}]}');
         System.debug('r body : ' + request.requestBody);
          Test.startTest();
         
         Id thisContractId = ContractService.createNewContract();
-        Contract thisContract = [SELECT Id, Name, ContractTerm, Status FROM Contract WHERE Id =:thisContractId];
-        System.debug('thisContract : ' + thisContract);
-
-         Test.stopTest();
+        Contract thisContract = [SELECT Id, Name, StartDate, ContractTerm, Status FROM Contract WHERE Id =:thisContractId];
+        Test.stopTest();
         
         // Check contract is created
         System.assertEquals(thisContract.ContractTerm, 6);
