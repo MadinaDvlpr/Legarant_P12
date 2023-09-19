@@ -48,7 +48,7 @@ global with sharing class ContactService {
     }
     
     @HttpPatch
-    global static Id updateContact(String Salutation, String FirstName, String LastName, String Phone, String Email) {
+    global static Id updateContact() {
 
         // Add the Contact Id as a parameter in the URL
         RestRequest request = RestContext.request;

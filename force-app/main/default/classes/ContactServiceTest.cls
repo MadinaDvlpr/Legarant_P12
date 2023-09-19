@@ -28,31 +28,19 @@ public class ContactServiceTest {
     
     @isTest 
     static void testCreateNewContacts() {
-        List<Contact> contactsForThisTest = TestDataFactory.createContacts(3);
+        //List<Contact> contactsForThisTest = TestDataFactory.createContacts(3);
         // Call the method to test and add parameters
         
 		RestRequest request = new RestRequest();
-        request.requestUri ='https://legarant4-dev-ed.develop.lightning.force.com/services/apexrest/Contact/';
+        request.requestUri ='https://https://legarant-b-dev-ed.develop.lightning.force.com/services/apexrest/Contact/';
         request.httpMethod = 'POST';
         RestContext.request = request;        
         request.requestBody = Blob.valueOf('{"records" : [{"attributes" : {"type" : "Contact"},"FirstName": "TEST","LastName": "TESTAPEX","Email": "APEXTEST@gmail.com"}]}');
-        //request.requestBody = JSONFile.creatJSONFile(contactsForThisTest);
         
         Test.startTest();
         String thisContactId = ContactService.createNewContact();
-        //NB Je recupere une map json serialisezd pretty une foiis le contact crée 
-        //
-        //ICIIIIIIIIIII Map Id / Email Unique
-        System.debug('This Contact Id : ' + thisContactId);
-        
-        // Retrieve Id & Email of the created Contact 
-        //Contact thisContact = [SELECT Id, Salutation, Firstname, LastName, Salesforce_Id__c, Email FROM Contact WHERE Id = :thisContactId];
         Test.stopTest();
-
-        // Check that we get a results and this contactId map is not empty
         System.assert(thisContactId != null);
-        //System.assertEquals('TEST', thisContact.FirstName);
-
     }
     
     
@@ -71,7 +59,7 @@ public class ContactServiceTest {
         
         Test.startTest();
         // Update all fields of existing record (only phone has changed)
-        Id thisContactId = ContactService.updateContact('Mr','Magda', 'Test','+330987654321', 'mytest@testsfdx.com');
+        Id thisContactId = ContactService.updateContact();
         
         // Retrieve Id & Phone of the updated Contact
         Contact thisContact = [SELECT Id, Phone FROM Contact WHERE Id=:thisContactId];
@@ -85,7 +73,7 @@ public class ContactServiceTest {
         // Set up a test request
         Id recordId = TestDataFactory.createTestContact();
         RestRequest request = new RestRequest();
-        request.requestURI =  'https://legarant4-dev-ed.develop.lightning.force.com/services/apexrest/Contact/' + recordId;
+        request.requestURI =  'https://legarant-b-dev-ed.develop.lightning.force.com//services/apexrest/Contact/' + recordId;
         request.httpMethod = 'DELETE';
         request.addHeader('Content-Type', 'application/json');
         request.requestBody = Blob.valueOf('{"Active__c" : "false"}');

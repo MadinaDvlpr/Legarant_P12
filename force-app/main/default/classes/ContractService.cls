@@ -31,7 +31,7 @@ global with sharing class ContractService {
             Contract thisContract = new Contract(
                    Name = (String) parsedContract.get('Name'),
                     Status =  (String) parsedContract.get('Status'),
-                    AccountId =  (String) parsedContract.get('AccountId'),
+                    AccountId =  Id.valueOf((String) parsedContract.get('AccountId')),
                     StartDate = Date.valueOf((String) parsedContract.get('StartDate')),
                     ContractTerm = Integer.valueOf((String) parsedContract.get('ContractTerm'))
             );
@@ -39,10 +39,10 @@ global with sharing class ContractService {
         }
         Database.upsert(contractsToInsert, Contract.Id, true);
 		
-        Map<String, String> stringMap = new Map<String, String>();
+        Map<String, Object> stringMap = new Map<String, Object>();
         for (Contract contract : contractsToInsert) {
             if (contract.Id != null) {
-                stringMap.put(contract.Name, contract.Status);
+                stringMap.put(contract.Id, contract.Name);
             }
         }
         return JSON.serializePretty(stringMap);
@@ -52,7 +52,7 @@ global with sharing class ContractService {
     
     @HttpPatch
     global static Id updateContract(){
-        // Add the Contact Id as a parameter in the URL
+        // extract the Contract Id as a parameter in the URL
         RestRequest request = RestContext.request;
         String contractId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1);
     
@@ -67,8 +67,9 @@ global with sharing class ContractService {
         Contract thisContract = matchingContracts[0];
         //convert JSON data from request 
         Map<String, Object> requestResult = (Map<String, Object>) JSON.deserializeUntyped(request.requestBody.toString());
+        
         //update fields on object    
-        for (String fieldName : requestResult.keySet()) {
+        for (String fieldName : requestResult.keySet()) { 
             thisContract.put(fieldName, requestResult.get(fieldName));
         }
     
