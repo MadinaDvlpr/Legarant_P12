@@ -1,3 +1,59 @@
+| 👷 CI                                                                                                                                                                                                                       | 🚀 Release                                                                                                                                                                   | 🤖 Stable                                                                                                                                                                    | 🧪 Snapshot                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![GitHub CI](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)] (https://github.com/Magda-dev/Legarant_P12) 
+| [![GitHub release](https://img.shields.io/badge/v1.0.0-brightgreen?style=flat&label=RELEASED&labelColor=%23000000&color=%23177EBF)](https://github.com/Magda-dev/Legarant_P12) 
+| [![SNAPSHOT](https://img.shields.io/badge/v1.0.0-orange?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFA54B)](https://github.com/Magda-dev/Legarant_P12) |
+
+
+<!-- Improved compatibility of back to top link: See: https://github.com/Magda-dev -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out this Heroku project
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create your AWESOME Heroku App! :D
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+![Static Badge](https://img.shields.io/badge/MagdaDev-green?label=CONTRIBUTORS&labelColor=%236B7176&color=%2361DBD1&link=https%3A%2F%2Fgithub.com%2FMagda-dev%2F)
+![Static Badge](https://img.shields.io/badge/5-blue?label=HTML&labelColor=%236B7176&color=%2300ADDC&link=https%3A%2F%2Fgithub.com%2FMagda-dev%2F)
+![Static Badge](https://img.shields.io/badge/Magdalena-blue?label=LINKEDIN&labelColor=%236B7176&color=%230966C2&link=linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)
+![Static Badge](https://img.shields.io/badge/Github-blue?label=MARKDOWN&labelColor=%2300000&color=%23FFA54B&link=linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)
+![Static Badge](https://img.shields.io/badge/5-blue?label=HTML&labelColor=%2300000&color=%237F3F98&link=linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)
+![Static Badge](https://img.shields.io/badge/Magdalena%20Larmet-blue?label=LINKEDIN&labelColor=%2300000&color=%230966C2&link=linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)
+
+
+<!-- ENTETE DU README -->
+<br />
+<div align="center">
+  <a href="https://github.com/Magda-dev/LearnGit">
+    <img src="images/header-img.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Mon Super Repository</h3>
+
+  <p align="center">
+    My awesome README template !
+    <br />
+    <a href="https://github.com/Magda-dev/LearnGit"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Magda-dev/LearnGit">View Demo</a>
+    ·
+  </p>
+</div>
+
+
+
 # Step 1 Create your Salesforce Connected App or Sandbox 
 Go to Salesforce and create you own regular org or sandbox. This is a connected you might want to create also a connected app.
 
