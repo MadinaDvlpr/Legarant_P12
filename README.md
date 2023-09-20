@@ -7,6 +7,7 @@
 | [![SNAPSHOT](https://img.shields.io/badge/v1.0.0-orange?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFA54B)](https://github.com/Magda-dev/Legarant_P12) 
 |[![RELEASE DATE](https://img.shields.io/badge/September%202023-white?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFFFFF)
 ]
+|:-:|:-:|:-:|:-:|:-:|
 
  
 <!-- Improved compatibility of back to top link: See: https://github.com/Magda-dev -->
