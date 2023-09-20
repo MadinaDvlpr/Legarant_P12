@@ -1,8 +1,9 @@
 | 👩‍💼 Contributors                                                                                                                                                                                                                       | 📅 Date                                                                                                                                                                   | 🤖 Build                                                                                                                                                                    | 📱 Social Media                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 
- | [![RELEASE DATE](https://img.shields.io/badge/September%202023-white?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFFFFF)
-] | [![GitHub CI](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)](https://github.com/Magda-dev/Legarant_P12) | [![LINKEDIN](https://img.shields.io/badge/Magdalena%20Larmet-white?style=flat&label=Linkedin&labelColor=%23000000&color=%23004182&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)](https://www.linkedin.com/in/magdalenalarmet-salesforce-developpeur/) |
+| [![RELEASE DATE](https://img.shields.io/badge/September%202023-white?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFFFFF)](https://github.com/Magda-dev/Legarant_P12)
+| [![BUILD](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)](https://github.com/Magda-dev/Legarant_P12) 
+| [![LINKEDIN](https://img.shields.io/badge/Magdalena%20Larmet-white?style=flat&label=Linkedin&labelColor=%23000000&color=%23004182&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmagdalenalarmet-salesforce-developpeur%2F)](https://www.linkedin.com/in/magdalenalarmet-salesforce-developpeur/) |
 
 
 
@@ -136,7 +137,7 @@ For simple deployment on Heroku platform use this handy Heroku-button
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-url]
 [contributors-shield]: (https://img.shields.io/badge/1?label=CONTRIBUTORS&labelColor=%236B7176&color=%2361DBD1)
 [contributors-url]: https://github.com/Magda-dev
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
