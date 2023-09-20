@@ -1,4 +1,4 @@
-👩‍💼Contributors      |📅 Release Date             |🛠Build              |🧪 Social Media            |                 |
+👩‍💼Contributors      |📅 Release Date             |🛠Build              |🧪 Social Media            |                
 |:--------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | [![CONTRIBUTOR](https://img.shields.io/badge/Larmet-white?style=flat&label=Magdalena%20&labelColor=%23000000&color=%2361DBD1)](https://www.linkedin.com/in/magdalenalarmet-salesforce-developpeur/)
 | [![RELEASE DATE](https://img.shields.io/badge/September%202023-white?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFFFFF)](https://github.com/Magda-dev/Legarant_P12)
