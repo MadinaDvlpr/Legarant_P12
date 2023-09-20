@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Magda-dev/LearnGit">
-    <img src="images/header-img.png" alt="Logo" width="80" height="80">
+    <img width="100%" src="images/header-img.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1> align="center">Legarant Application Connectée Salesforce</h1>
@@ -29,15 +29,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-  <p align="center">
-    My awesome README template !
-    <br />
-    <a href="https://github.com/Magda-dev/LearnGit"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Magda-dev/LearnGit">View Demo</a>
-    ·
-  </p>
+
 </div>
 
 ## About the project
