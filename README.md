@@ -13,7 +13,7 @@
   </a>
 
   <h1> align="center">Legarant Application Connectée Salesforce</h1>
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <img src="images/img-header.png" alt="Logo" width="80" height="80">
 
 | 👩‍💼Contributors      |📅 Release Date             |🛠    Build              |🧪 Social  |
 |:----   |:----:    |:----:    |----:    |
@@ -93,7 +93,7 @@ Here are some documentation resources to get you started with Salesforce :
 The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
 
-#### Read more About It
+#### Read more About Salesforce
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
@@ -109,30 +109,11 @@ Only Heroku Postgre (paid) and Heroku Connect add-ons are needed (Free version).
 For simple deployment on Heroku platform use this handy Heroku-button 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
 
-## Read more about Heroku
+## Command lines for Heroku
+```
+$ heroku create
+$ git push heroku main
+$ heroku open
+```
 
-
-
-
-
-# Step 4 Install PGAdmin to test the App and send requests
-<a href="https://www.pgadmin.org/docs/pgadmin4/development/connect_to_server.html">First step with PgAdmin </a></br>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[![LinkedIn][linkedin-url]
-[contributors-shield]: (https://img.shields.io/badge/1?label=CONTRIBUTORS&labelColor=%236B7176&color=%2361DBD1)
-[contributors-url]: https://github.com/Magda-dev
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: linkedin.com/in/magdalenalarmet-salesforce-developpeur/
-[product-screenshot]: /images/repo.png
+Now you are all set to try out the app ! 
