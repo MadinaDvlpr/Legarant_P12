@@ -1,12 +1,14 @@
-👷CI |🚀Release| 🤖Stable| 🧪 Snapshot|
-|:-:|:-:|:-:|:-:|
+👩‍💼Contributors |📅 Date| 🤖Stable| 🧪 Snapshot| 👷CI
+|:-:|:-:|:-:|:-:|:-:|
 
-
-| [![GitHub CI](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)] (https://github.com/Magda-dev/Legarant_P12) 
+  
+| [![GitHub CI](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)](https://github.com/Magda-dev/Legarant_P12) 
 | [![GitHub release](https://img.shields.io/badge/v1.0.0-brightgreen?style=flat&label=RELEASED&labelColor=%23000000&color=%23177EBF)](https://github.com/Magda-dev/Legarant_P12) 
-| [![SNAPSHOT](https://img.shields.io/badge/v1.0.0-orange?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFA54B)](https://github.com/Magda-dev/Legarant_P12) |
+| [![SNAPSHOT](https://img.shields.io/badge/v1.0.0-orange?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFA54B)](https://github.com/Magda-dev/Legarant_P12) 
+|[![RELEASE DATE](https://img.shields.io/badge/September%202023-white?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFFFFF)
+]
 
-
+ 
 <!-- Improved compatibility of back to top link: See: https://github.com/Magda-dev -->
 <a name="readme-top"></a>
 <!--
@@ -120,3 +122,22 @@ For simple deployment on Heroku platform use this handy Heroku-button
 
 # Step 4 Install PGAdmin to test the App and send requests
 <a href="https://www.pgadmin.org/docs/pgadmin4/development/connect_to_server.html">First step with PgAdmin </a></br>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[contributors-shield]: (https://img.shields.io/badge/1?label=CONTRIBUTORS&labelColor=%236B7176&color=%2361DBD1)
+[contributors-url]: https://github.com/Magda-dev
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: linkedin.com/in/magdalenalarmet-salesforce-developpeur/
+[product-screenshot]: /images/repo.png
