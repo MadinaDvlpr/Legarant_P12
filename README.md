@@ -6,10 +6,10 @@
 *** Thanks again! Now go create your AWESOME Heroku App! :D
 -->
 <!-- HEADER README -->
-<br />
+
 <div align="center">
   <a href="https://github.com/Magda-dev/LearnGit">
-    <img width="950" height="500" src="images/header-img.jpg" alt="Logo" width="80" height="80">
+    <img width="950" height="500" src="images/header-img.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1> align="center">Legarant Application Connectée Salesforce</h1>
@@ -44,28 +44,6 @@ This is an Salesforce Apex project usine API calls with Postman. It is running o
 
 
 ## How to deploy the app ?
-### Install Postman
-You can use the Postman desktop app or the Postman web UI to connect to Salesforce with the Salesforce APIs collection:
-
-<a href="https://www.postman.com/downloads/" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
-
-<a href="https://www.youtube.com/watch?v=W-IwW6RM4F0&ab_channel=SalesforceDevelopers">🎥 Video instructions</a></br>
-<a href="https://www.postman.com/downloads/">Downloap Postman</a></br>
-<a href="https://github.com/forcedotcom/postman-salesforce-apis/blob/master/install-with-app.md#install-the-postman-app">Install the Postman App </a></br>
-<a href="https://quickstarts.postman.com/">How to get started with Postman</a></br>
-
-For instructions on how to install and set up Postman please visit : 
-
-🎥 [Video instructions](https://youtu.be/W-IwW6RM4F0)
-
-- [Install the Postman App](#install-the-postman-app)
-- [Fork the Collection](#fork-the-collection)
-- [Configure the Collection](#configure-the-collection)
-- [Authenticate with Salesforce](#authenticate-with-salesforce)
-- [Execute a Request](#execute-a-request)
-
-See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
-
 
 ### Install the app package in your Salesforce org 
 
@@ -90,6 +68,29 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
+### Install Postman
+You can use the Postman desktop app or the Postman web UI to connect to Salesforce with the Salesforce APIs collection:
+
+<a href="https://www.postman.com/downloads/" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+
+<a href="https://www.youtube.com/watch?v=W-IwW6RM4F0&ab_channel=SalesforceDevelopers">🎥 Video instructions</a></br>
+<a href="https://www.postman.com/downloads/">Downloap Postman</a></br>
+<a href="https://github.com/forcedotcom/postman-salesforce-apis/blob/master/install-with-app.md#install-the-postman-app">Install the Postman App </a></br>
+<a href="https://quickstarts.postman.com/">How to get started with Postman</a></br>
+
+For instructions on how to install and set up Postman please visit : 
+
+🎥 [Video instructions](https://youtu.be/W-IwW6RM4F0)
+
+- [Install the Postman App](#install-the-postman-app)
+- [Fork the Collection](#fork-the-collection)
+- [Configure the Collection](#configure-the-collection)
+- [Authenticate with Salesforce](#authenticate-with-salesforce)
+- [Execute a Request](#execute-a-request)
+
+See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
 
 
 ### Connect and deploy The app with Heroku in a few clicks
