@@ -1,6 +1,5 @@
 👩‍💼Contributors |📅 Date| 🤖Stable| 🧪 Snapshot| 👷CI
-|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
-
+|:--------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:----------------:|
 | [![GitHub CI](https://img.shields.io/badge/passed-brightgreen?style=flat&label=BUILD&labelColor=%23000000&color=%2361f522)](https://github.com/Magda-dev/Legarant_P12) 
 | [![GitHub release](https://img.shields.io/badge/v1.0.0-brightgreen?style=flat&label=RELEASED&labelColor=%23000000&color=%23177EBF)](https://github.com/Magda-dev/Legarant_P12) 
 | [![SNAPSHOT](https://img.shields.io/badge/v1.0.0-orange?style=flat&label=Snapshot&labelColor=%23000000&color=%23FFA54B)](https://github.com/Magda-dev/Legarant_P12) 
