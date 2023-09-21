@@ -8,8 +8,15 @@
 <!-- HEADER README -->
 
 <div align="center">
-  <a href="https://github.com/Magda-dev/LearnGit">
-    <img width="950" height="500" src="images/header-img.png" alt="Logo" width="80" height="80">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
+
+  <a width="950" height="500" href="https://github.com/Magda-dev/LearnGit">
+    <img  margin-top="3em" margin-bottom="3em" src="images/header-img.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1> align="center">Legarant Application Connectée Salesforce</h1>
@@ -28,14 +35,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-
 </div>
 
 ## About the project
 *Author : * Magdalena Larmet
 
-This project is part of Openclassrooms' studying path.
 This mobile web application has been completed for Legarant Company. LEGARANT is a life insurance company founded in 1980 and located in Nantes, France. They offer insurance products with several options at competitive prices.
 
 ### Technologies and Languages
@@ -84,20 +88,19 @@ For instructions on how to install and set up Postman please visit :
 
 🎥 [Video instructions](https://youtu.be/W-IwW6RM4F0)
 
-- [Install the Postman App](#install-the-postman-app)
-- [Fork the Collection](#fork-the-collection)
-- [Configure the Collection](#configure-the-collection)
-- [Authenticate with Salesforce](#authenticate-with-salesforce)
-- [Execute a Request](#execute-a-request)
+- [Install the Postman App](https://www.postman.com/downloads/)
+- [Fork the Collection](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/forking-entities/)
+- [Configure the Collection](https://learning.postman.com/docs/getting-started/installation/settings/)
+- [Execute a Request](https://academy.postman.com/requests-and-responses-basics)
 
-See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
+See [additional documentation](https://academy.postman.com/) to learn how to use Postman.
 
 
 ### Connect and deploy The app with Heroku in a few clicks
 
 Sign in to a paid account on Heroku to get started. 
 In this app Contact and Contract object are used and mapped in Heroku.
-Only Heroku Postgre (paid) and Heroku Connect add-ons are needed (Free version).
+Only Heroku Postgre (paid) and Heroku Connect add-ons are needed (Free version).</br>
 
 For simple deployment on Heroku platform use this handy Heroku-button 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Magda-dev/Legarant_P12)
