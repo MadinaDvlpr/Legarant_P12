@@ -15,8 +15,8 @@
 </picture>
 
 
-  <a width="950" height="500" href="https://github.com/Magda-dev/LearnGit">
-    <img  margin-top="3em" margin-bottom="3em" src="images/header-img.png" alt="Logo" width="80" height="80">
+  <a width="950" height="450" href="https://github.com/Magda-dev/LearnGit">
+    <img  margin-top="3em" margin-bottom="3em" src="images/header-img.png" alt="Logo">
   </a>
 
   <h1> align="center">Legarant Application Connectée Salesforce</h1>
